@@ -30,5 +30,6 @@ swicthing app directory
 ### touch __init__.py
 This file intializes the python module Without it, Python will not recognize the app directory as a mudule
 
-
+### touch models.py
+This is where the models are defined A model is a representation of database  tables in code
 
