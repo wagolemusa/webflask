@@ -24,6 +24,11 @@ creating files
 This is the application's entry point. We'll run this file to start the flask server of our application
 ## config 
 This contains the comfiguration of this appliction like database detials 
+### cd app
+swicthing app directory 
+
+### touch __init__.py
+This file intializes the python module Without it, Python will not recognize the app directory as a mudule
 
 
 
