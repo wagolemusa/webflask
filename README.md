@@ -17,5 +17,13 @@ installing flask framwork
 This were i'll put all my HTML files
 ## mkdir app app/static
 This is were my css img, js, folders and files will go 
+## touch run.py config.py
+creating files
+
+## run.py
+This is the application's entry point. We'll run this file to start the flask server of our application
+## config 
+This contains the comfiguration of this appliction like database detials 
+
 
 
