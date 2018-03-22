@@ -4,7 +4,7 @@ from flask import Flask
 
 # intialize
 
-app = Flask(__name__, instance_ralative_config=True)
+app = Flask(__name__, instance_relative_config=True)
 
 # load  the views
 
