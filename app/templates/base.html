@@ -16,16 +16,61 @@
 
   </head>
   <body>
+
+
+
+<!-- main navigation -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color">
+        <!-- Navbar brand -->
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="/">Home</a></li>
-            <li role="presentation"><a href="/about">About</a></li>
-            <li role="presentation"><a href="http://flask.pocoo.org" target="_blank">More About Flask</a></li>
-          </ul>
+        <a class="navbar-brand" href="#">Refuge</a>
+
+        <!--collapse batton -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExmpaleNav" aria-controls="#basicExmpaleNav" aria-expanded="false" arial-label="Toggle navigation">
+            <span class=" navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="basicExmpaleNav">
+
+            <!-- links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                
+                <div class="dropdown-menu dropdown-primary" aria-labelledy="navbarDropdownMenuLink">
+
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Anather Action</a>
+                <a class="dropdown-item" href="#">Something</a>
+                </div>
+            </ul>
+
+        <!-- end of links -->
+
+        <form class="form-inline">
+            <div class="md-form mt-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+        </div>
+
         </nav>
-      </div>
+
       {% block body %}
       {% endblock %}
       <footer class="footer">
