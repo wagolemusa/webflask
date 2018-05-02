@@ -37,3 +37,6 @@ This is where the models are defined A model is a representation of database  ta
 
 // in config.rb
 DEBUG = True
+
+## sudo pin install flask-sqlalchemy mysql-python
+mysql-python- This the python interface to mysql it will help to us to connect mysql database to our app
